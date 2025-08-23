@@ -1,13 +1,13 @@
-# 🟢 Scratch Detection Assignment
+# Scratch Detection Assignment
 
-## 📌 Overview
+## Overview
 This project addresses the challenge of **detecting scratches on semiconductor wafer maps** using both classical analysis and deep learning. The solution transforms die-level manufacturing data into **72×72 image grids** and applies a **U-Net segmentation model** to predict scratch locations.  
 
 The assignment includes data exploration, preprocessing, model building, evaluation, and final submission generation.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 ```
 scratch_detection_assignment.ipynb   # Main notebook (EDA, preprocessing, model training, results)
 data/                                # Input wafer datasets (not included here)
@@ -18,7 +18,7 @@ README.md                            # Project description
 
 ---
 
-## ⚙️ Workflow
+## ⚙Workflow
 
 ### 1. Exploratory Data Analysis (EDA)
 - Distribution of wafer yields across training and test sets.  
@@ -54,7 +54,7 @@ README.md                            # Project description
 
 ---
 
-## 🚀 How to Run
+## How to Run
 1. Install dependencies:
    ```bash
    pip install -r requirements.txt
@@ -68,18 +68,10 @@ README.md                            # Project description
 
 ---
 
-## 📦 Requirements
+## Requirements
 - Python 3.9+  
 - Jupyter Notebook  
 - Libraries:  
   - `pandas`, `numpy`, `matplotlib`, `seaborn`  
   - `scikit-learn`  
   - `torch` (PyTorch)  
-
----
-
-## ✨ Future Work
-- Data augmentation beyond rotations (e.g., synthetic defect generation).  
-- Test **pretrained segmentation models** from Hugging Face.  
-- Explore scalable architectures for larger wafer sizes (128×128 or higher).  
-- Optimize for different business trade-offs (minimizing false negatives vs false positives).  
