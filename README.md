@@ -35,12 +35,13 @@ The assignment includes data exploration, preprocessing, model building, evaluat
 - Business-driven adjustment: wafers with yield < 88% classified as **scratch-free** to reduce false positives.
 
 ### 5. Results
-- Optimal parameters:  
-  - **dice_weight = 0.0**  
+- Optimal parameters:    
   - **threshold ≈ 0.55–0.65**  
 - Model achieved balanced performance with emphasis on **precision** (reducing false scratch detections).  
 - Predicted scratch masks were exported to CSV for submission.
 <img width="1197" height="632" alt="image" src="https://github.com/user-attachments/assets/7567a986-1b05-469d-86ac-4516b1ccce94" />
+<img width="717" height="815" alt="image" src="https://github.com/user-attachments/assets/60a8808d-0f8d-44ba-b1d1-ee754bb97cab" />
+
 
 ---
 
