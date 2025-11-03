@@ -1,4 +1,4 @@
-# Scratch Detection Assignment - See the final results at the bottom of scratch_detection_assignment.ipynb!
+# Scratch Detection Assignment - See results below!
 
 ## Overview
 This project addresses the challenge of **detecting scratches on semiconductor wafer maps** using deep learning(CNN). The solution transforms die-level manufacturing data into **72×72 image grids** and applies a **U-Net segmentation model** to predict scratch locations.  
@@ -40,6 +40,7 @@ The assignment includes data exploration, preprocessing, model building, evaluat
   - **threshold ≈ 0.55–0.65**  
 - Model achieved balanced performance with emphasis on **precision** (reducing false scratch detections).  
 - Predicted scratch masks were exported to CSV for submission.
+<img width="1197" height="632" alt="image" src="https://github.com/user-attachments/assets/7567a986-1b05-469d-86ac-4516b1ccce94" />
 
 ---
 
